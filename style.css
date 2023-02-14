@@ -1,0 +1,266 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.navbar-border {
+    background-color: #F8F8F8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0px 12px;
+    padding-bottom: 20px;
+}
+
+.nav-links {
+    padding: 0px 0px;
+    margin: 0px 0px;
+
+}
+
+ul {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+li a {
+    padding-left: 16px;
+    color: #717171;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #1792D2;
+}
+
+.address {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Lora', serif;
+}
+
+.sub-address {
+    padding-top: 0px;
+    margin-top: 0px;
+    font: normal normal bold 12px/13px Ubuntu;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #1792D2;
+    text-transform: uppercase;
+}
+
+.current-page {
+    margin-bottom: 1px;
+    text-decoration: underline;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+/*-------------------------------------------------*/
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 950px;
+    margin-top: 3em;
+}
+
+/*-------------------------------------------------*/
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.image-full {
+    max-height: 300px;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.article-recent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+strong {
+    font-weight: 700;
+    font: normal normal bold 18px/28px Ubuntu;
+    color: black;
+}
+
+.article-recent-main {
+    order: 2;
+}
+
+.article-recent-secondary {
+    order: 1;
+}
+
+.article-read-more {
+    margin: 0;
+    padding: 0;    
+    color: #1792D2;
+    font: normal normal bold 14px/28px Ubuntu;
+    text-decoration: none;
+}
+
+.article-read-more:hover {
+    color: #143774;
+    text-decoration:underline;
+}
+
+.article-body a{
+    color: #1792D2;
+}
+
+.article-body a:hover{
+    color: #143774;
+}
+
+.sidebar-widget {
+    border: 20px solid #efefef;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.widget-recent-post {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child {
+    border: 0;
+    margin: 0;
+}
+
+.article-featuerd {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #707070;
+}
+
+.article-featuerd .article-image {
+    order: -2;
+}
+
+.article-featuerd .article-info {
+    order: -1;
+}
+
+.article-title {
+    color: #143774;
+    padding: 0;
+    margin: 0;
+}
+
+.article-info {
+    color: #707070;
+    font: normal normal normal 14px/19px Segoe UI;
+}
+
+.widget-title {
+    font: normal normal bold 18px/28px Ubuntu;
+    letter-spacing: 3.6px;
+    color: #143774;
+    text-transform: uppercase;
+}
+
+.widget-body{
+    color: #143774;
+}
+h3{
+    color: #143774;
+    font-weight: 100;
+    font: normal normal normal 18px/28px Lora;
+}
+
+.widget-image{
+order: 1;
+}
+
+.widget-recent-post-title{
+    order: 2;
+}
+
+.article-recent:last-child {
+    margin-bottom: 3em;
+}
+
+footer {
+    background: #143774;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+}
+
+footer strong {
+    color: white;
+}
+
+/* navbar */
+@media (max-width: 710px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    img {
+        max-height: 300px;
+    }
+}
+
+@media (min-width:710px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .article-recent-main{
+        margin-left: 2em;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .article-recent .article-image{
+        min-height: 250px;
+        min-width: 100px;
+        max-width: 250px;
+    }
+    main {
+        width: 70%;
+    }
+
+    aside {
+        width: 25%;
+    }
+
+}
