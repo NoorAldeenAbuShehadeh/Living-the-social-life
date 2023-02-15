@@ -233,7 +233,6 @@ footer strong {
     }
 
     img {
-        max-height: 300px;
         width: 100%;
     }
 
@@ -253,9 +252,8 @@ footer strong {
         justify-content: space-between;
     }
     .article-recent .article-image{
-        min-height: 250px;
-        min-width: 100px;
-        max-width: 250px;
+        min-width: 200px;
+        min-height: 200px;
     }
     main {
         width: 70%;
