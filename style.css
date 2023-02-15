@@ -209,7 +209,7 @@ footer {
     background: #143774;
     color: white;
     text-align: center;
-    padding: 3em 0;
+    padding: 1em 0;
 }
 
 footer strong {
@@ -234,7 +234,9 @@ footer strong {
 
     img {
         max-height: 300px;
+        width: 100%;
     }
+
 }
 
 @media (min-width:710px) {
@@ -262,5 +264,6 @@ footer strong {
     aside {
         width: 25%;
     }
+
 
 }
