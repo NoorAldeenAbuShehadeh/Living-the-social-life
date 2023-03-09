@@ -1,12 +1,12 @@
 # Living the social life
-### Run the project using githup pages: https://nooraldeenabushehadeh.github.io/Living-the-social-life/
 
 ## Description
 Welcome to my project! This is a living the social life project made in HTML and CSS.
 I am build this project in full Responsive design using display flex and media Query.
 I hope you enjoy and I look forward to your contributions!
 
-
+## Run the project:
+You can run the project using githup pages follow this link: https://nooraldeenabushehadeh.github.io/Living-the-social-life/
 
 ## Key Topics
 
@@ -25,17 +25,13 @@ The following topics will be covered in this unit:
   * Color: hexadecimal, rgb and named
   * Flexbox
   
-## Installation
-
-[Provide step-by-step instructions for installing your web page.]
-
-To run the project locally, follow these steps:
-
-1. Clone the repository to your local machine using the following command:
-   <br>
-   <br>
-   ``` 
-   git clone https://github.com/your-username/living-the-social-life.git
+## Getting Started
+  #### To run this project locally, you need to clone the repository to your local machine and install the required dependencies.
+   
+   ```
+   git clone https://github.com/NoorAldeenAbuShehadeh/Living-the-social-life.git
+   cd Living-the-social-life
+   npm install
    ```
 
   
