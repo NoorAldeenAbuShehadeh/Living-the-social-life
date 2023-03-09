@@ -25,6 +25,19 @@ The following topics will be covered in this unit:
   * Color: hexadecimal, rgb and named
   * Flexbox
   
+## Installation
+
+[Provide step-by-step instructions for installing your web page.]
+
+To run the project locally, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+   <br>
+   <br>
+   ``` 
+   git clone https://github.com/your-username/living-the-social-life.git
+   ```
+
   
 ## Helpful Links 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
